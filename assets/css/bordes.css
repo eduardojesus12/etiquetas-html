@@ -1,0 +1,19 @@
+.caja {
+    width: 400px;
+    height: 400px;
+}
+
+.uno {
+    background-color: #fafa31;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-top-left-radius: 20px;
+}
+
+.dos {
+    background-color: #22b822;
+    border-radius: 50%;
+}

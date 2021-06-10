@@ -1,14 +1,15 @@
 body {
-    background-color: lightgrey;
+    background-color: #CDCDCD;
 }
 
 header >  h1 {
+    color: rgba(0, 0, 255, 0.2);
     text-align: center;
     letter-spacing: 10px;
 }
 
 main > article > section {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 

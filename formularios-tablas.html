@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formularios y tablas</title>
+    </head>
+    <body>
+        <h1>Formularios y tablas</h1>
+
+        <table border="1">
+            <tr>
+                <th>Horario</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <th>8:00-9:00</th>
+                <td>Curso de JS</td>
+                <td>Curso de Bootstrap</td>
+                <td>Curso de java</td>
+                <td colspan="2">Curso de Springboot</td>
+                
+            </tr>
+            <tr>
+                <th>9:00-10:00</th>
+                <td>Curso de JS</td>
+                <td>Curso de Bootstrap</td>
+                <td>Curso de java</td>
+                <td>Curso de Springboot</td>
+                <td>Curso de HTML</td>
+            </tr>
+        </table>
+
+        <hr />
+
+        <form method="POST">
+            <h3>Registrate</h3>
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Carlos e....." required />
+            </p>
+            <p>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required />
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" required />
+            </p>
+            <p>
+                <select name="meses" id="">
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                </select>
+
+            </p>
+            <p>
+                <input type="checkbox" />
+                <label for="">Opcion 1</label>
+            </p>
+            <p>
+                <input type="radio" name="color" value="rojo">
+                <label for="color">Rojo</label>
+                <input type="radio" name="color" value="verde">
+                <label for="color">Verde</label>
+                <input type="radio" name="color" value="azul">
+                <label for="color">Azul</label>
+                <input type="radio" name="color" value="amarillo">
+                <label for="color">Amarillo</label>
+                <input type="radio" name="color" value="naranja">
+                <label for="color">Naranja</label>
+            </p>
+            <p>
+                <textarea name="muchotexto" id="" cols="150" rows="20"></textarea>
+            </p>
+            <!-- <input type="submit" value="Registrar"> -->
+            <button type="submit">Registrar</button>
+
+        </form>
+
+    </body>
+</html>
